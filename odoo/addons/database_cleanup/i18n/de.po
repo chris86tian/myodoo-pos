@@ -1,0 +1,319 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* database_cleanup
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-02 09:57+0000\n"
+"PO-Revision-Date: 2015-08-02 12:06+0200\n"
+"Last-Translator: Martin Schmid <m.schmid@equitania.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.3\n"
+
+#. module: database_cleanup
+#: field:cleanup.purge.wizard.column,purge_line_ids:0
+msgid "Columns to purge"
+msgstr "Spalten zu reinigen"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,create_uid:0
+#: field:cleanup.purge.line.data,create_uid:0
+#: field:cleanup.purge.line.model,create_uid:0
+#: field:cleanup.purge.line.module,create_uid:0
+#: field:cleanup.purge.line.table,create_uid:0
+#: field:cleanup.purge.wizard.column,create_uid:0
+#: field:cleanup.purge.wizard.data,create_uid:0
+#: field:cleanup.purge.wizard.model,create_uid:0
+#: field:cleanup.purge.wizard.module,create_uid:0
+#: field:cleanup.purge.wizard.table,create_uid:0
+msgid "Created by"
+msgstr "Erstellt durch"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,create_date:0
+#: field:cleanup.purge.line.data,create_date:0
+#: field:cleanup.purge.line.model,create_date:0
+#: field:cleanup.purge.line.module,create_date:0
+#: field:cleanup.purge.line.table,create_date:0
+#: field:cleanup.purge.wizard.column,create_date:0
+#: field:cleanup.purge.wizard.data,create_date:0
+#: field:cleanup.purge.wizard.model,create_date:0
+#: field:cleanup.purge.wizard.module,create_date:0
+#: field:cleanup.purge.wizard.table,create_date:0
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.data,data_id:0
+msgid "Data entry"
+msgstr "Datensatz"
+
+#. module: database_cleanup
+#: field:cleanup.purge.wizard.data,purge_line_ids:0
+msgid "Data to purge"
+msgstr "Daten zu bereinigen"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_database_cleanup
+msgid "Database cleanup"
+msgstr "Datenbank bereinigen"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line,id:0 field:cleanup.purge.line.column,id:0
+#: field:cleanup.purge.line.data,id:0 field:cleanup.purge.line.model,id:0
+#: field:cleanup.purge.line.module,id:0 field:cleanup.purge.line.table,id:0
+#: field:cleanup.purge.wizard,id:0 field:cleanup.purge.wizard.column,id:0
+#: field:cleanup.purge.wizard.data,id:0 field:cleanup.purge.wizard.model,id:0
+#: field:cleanup.purge.wizard.module,id:0 field:cleanup.purge.wizard.table,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,write_uid:0
+#: field:cleanup.purge.line.data,write_uid:0
+#: field:cleanup.purge.line.model,write_uid:0
+#: field:cleanup.purge.line.module,write_uid:0
+#: field:cleanup.purge.line.table,write_uid:0
+#: field:cleanup.purge.wizard.column,write_uid:0
+#: field:cleanup.purge.wizard.data,write_uid:0
+#: field:cleanup.purge.wizard.model,write_uid:0
+#: field:cleanup.purge.wizard.module,write_uid:0
+#: field:cleanup.purge.wizard.table,write_uid:0
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,write_date:0
+#: field:cleanup.purge.line.data,write_date:0
+#: field:cleanup.purge.line.model,write_date:0
+#: field:cleanup.purge.line.module,write_date:0
+#: field:cleanup.purge.line.table,write_date:0
+#: field:cleanup.purge.wizard.column,write_date:0
+#: field:cleanup.purge.wizard.data,write_date:0
+#: field:cleanup.purge.wizard.model,write_date:0
+#: field:cleanup.purge.wizard.module,write_date:0
+#: field:cleanup.purge.wizard.table,write_date:0
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,model_id:0
+msgid "Model"
+msgstr "Modell"
+
+#. module: database_cleanup
+#: model:ir.model,name:database_cleanup.model_ir_model
+msgid "Models"
+msgstr "Datenmodelle"
+
+#. module: database_cleanup
+#: field:cleanup.purge.wizard.model,purge_line_ids:0
+msgid "Models to purge"
+msgstr "Datenmodelle zu bereinigen"
+
+#. module: database_cleanup
+#: field:cleanup.purge.wizard.module,purge_line_ids:0
+msgid "Modules to purge"
+msgstr "Module zu bereinigen"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line,name:0 field:cleanup.purge.line.column,name:0
+#: field:cleanup.purge.line.data,name:0 field:cleanup.purge.line.model,name:0
+#: field:cleanup.purge.line.module,name:0 field:cleanup.purge.line.table,name:0
+#: field:cleanup.purge.wizard,name:0 field:cleanup.purge.wizard.column,name:0
+#: field:cleanup.purge.wizard.data,name:0
+#: field:cleanup.purge.wizard.model,name:0
+#: field:cleanup.purge.wizard.module,name:0
+#: field:cleanup.purge.wizard.table,name:0
+msgid "Name"
+msgstr "Name"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_modules.py:122
+#, python-format
+msgid "No modules found to purge"
+msgstr "Keine Module zur Bereinigung gefunden"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_columns.py:148
+#, python-format
+msgid "No orphaned columns found"
+msgstr "Keine verwaiste Spalten gefunden"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_data.py:99
+#, python-format
+msgid "No orphaned data entries found"
+msgstr "Keine verwaisten Dateneinträge gefunden"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_models.py:128
+#, python-format
+msgid "No orphaned models found"
+msgstr "Keine verwaisten Datenmodelle gefunden"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_tables.py:131
+#, python-format
+msgid "No orphaned tables found"
+msgstr "Keine verwaiste Tabellen gefunden"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_columns.py:147
+#: code:addons/database_cleanup/model/purge_data.py:98
+#: code:addons/database_cleanup/model/purge_models.py:127
+#: code:addons/database_cleanup/model/purge_modules.py:121
+#: code:addons/database_cleanup/model/purge_tables.py:130
+#, python-format
+msgid "Nothing to do"
+msgstr "Nichts zu tun"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line.column,wizard_id:0
+#: field:cleanup.purge.line.data,wizard_id:0
+#: field:cleanup.purge.line.model,wizard_id:0
+#: field:cleanup.purge.line.module,wizard_id:0
+#: field:cleanup.purge.line.table,wizard_id:0
+msgid "Purge Wizard"
+msgstr "Bereiningungs-Assistent"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.column:database_cleanup.purge_columns_view
+msgid "Purge all columns"
+msgstr "Bereinige alle Spalten"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.data:database_cleanup.purge_data_view
+msgid "Purge all data"
+msgstr "Bereinige alle Daten"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.model:database_cleanup.purge_models_view
+msgid "Purge all models"
+msgstr "Bereinige alle Modelle"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.module:database_cleanup.purge_modules_view
+msgid "Purge all modules"
+msgstr "Bereinige alle Module"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.table:database_cleanup.purge_tables_view
+msgid "Purge all tables"
+msgstr "Bereinige alle Tabellen"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_columns.py:86
+#: view:cleanup.purge.wizard.column:database_cleanup.purge_columns_view
+#: model:ir.actions.server,name:database_cleanup.action_purge_columns
+#, python-format
+msgid "Purge columns"
+msgstr "Bereinige alle Spalten"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_data.py:60
+#: view:cleanup.purge.wizard.data:database_cleanup.purge_data_view
+#, python-format
+msgid "Purge data"
+msgstr "Bereinige Daten"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.data:database_cleanup.purge_data_view
+#: model:ir.actions.server,name:database_cleanup.action_purge_data
+msgid "Purge data entries that refer to missing resources"
+msgstr "Bereinige Dateneinträge, die auf fehlende Ressourcen verweisen"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_models.py:113
+#: view:cleanup.purge.wizard.model:database_cleanup.purge_models_view
+#: model:ir.actions.server,name:database_cleanup.action_purge_models
+#, python-format
+msgid "Purge models"
+msgstr "Bereinige Modelle"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_modules.py:104
+#: view:cleanup.purge.wizard.module:database_cleanup.purge_modules_view
+#: model:ir.actions.server,name:database_cleanup.action_purge_modules
+#, python-format
+msgid "Purge modules"
+msgstr "Bereinige Module"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_purge_columns
+msgid "Purge obsolete columns"
+msgstr "Verwaiste Spalten bereinigen"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_purge_data
+msgid "Purge obsolete data entries"
+msgstr "Verwaiste Dateneinträge bereinigen"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_purge_models
+msgid "Purge obsolete models"
+msgstr "Verwaiste Modelle bereinigen"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_purge_modules
+msgid "Purge obsolete modules"
+msgstr "Verwaiste Module bereinigen"
+
+#. module: database_cleanup
+#: model:ir.ui.menu,name:database_cleanup.menu_purge_tables
+msgid "Purge obsolete tables"
+msgstr "Verwaiste Tabellen bereinigen"
+
+#. module: database_cleanup
+#: code:addons/database_cleanup/model/purge_tables.py:92
+#: view:cleanup.purge.wizard.table:database_cleanup.purge_tables_view
+#: model:ir.actions.server,name:database_cleanup.action_purge_tables
+#, python-format
+msgid "Purge tables"
+msgstr "Bereinige Tabelle"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.column:database_cleanup.purge_columns_view
+msgid "Purge this column"
+msgstr "Bereinige diese Spalte"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.data:database_cleanup.purge_data_view
+msgid "Purge this data"
+msgstr "Bereinige diesen Datensatz"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.model:database_cleanup.purge_models_view
+msgid "Purge this model"
+msgstr "Bereinige dieses Modell"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.module:database_cleanup.purge_modules_view
+msgid "Purge this module"
+msgstr "Bereinige dieses Modul"
+
+#. module: database_cleanup
+#: view:cleanup.purge.wizard.table:database_cleanup.purge_tables_view
+msgid "Purge this table"
+msgstr "Bereinige diese Tabelle"
+
+#. module: database_cleanup
+#: field:cleanup.purge.line,purged:0 field:cleanup.purge.line.column,purged:0
+#: field:cleanup.purge.line.data,purged:0
+#: field:cleanup.purge.line.model,purged:0
+#: field:cleanup.purge.line.module,purged:0
+#: field:cleanup.purge.line.table,purged:0
+msgid "Purged"
+msgstr "Bereinigt"
+
+#. module: database_cleanup
+#: field:cleanup.purge.wizard.table,purge_line_ids:0
+msgid "Tables to purge"
+msgstr "Tabellen zu bereinigen"
