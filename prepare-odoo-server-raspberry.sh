@@ -26,7 +26,7 @@ apt-get update && apt-get dist-upgrade && apt-get autoremove
 sudo rpi-update
 
 echo "Tools zip, unzip, mc(Midnight Comander) and htop will be install.."
-apt-get install mc zip unzip htop ntp
+apt-get install mc zip unzip htop ntp dnsutils
 
 echo "Do you want install postgresql ? / Wollen Sie die PostgreSQL-DB installieren  (Y/n):"
 read mypsql

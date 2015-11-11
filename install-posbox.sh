@@ -36,6 +36,9 @@ echo "Prepare PostgreSQL"
 sudo -u postgres createuser -s pi
 sudo -u postgres psql -c "ALTER USER pi WITH PASSWORD 'raspberry';"
 
+sudo groupadd usbusers
+sudo usermod -G adm,lp,dialout,cdrom,sudo,audio,video,plugdev,games,users,netdev,input,spi,gpio,usbusers pi
 
+sudo cp 99-usb.rules /etc/udev/rules.d/99-usb.rules
 
 echo "Finished!"
