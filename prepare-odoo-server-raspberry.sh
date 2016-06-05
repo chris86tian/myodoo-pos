@@ -23,7 +23,6 @@
 
 echo "Prepare Raspberry Linux"
 apt-get update && apt-get dist-upgrade && apt-get autoremove
-sudo rpi-update
 
 echo "Tools zip, unzip, mc(Midnight Comander) and htop will be install.."
 apt-get install mc zip unzip htop ntp dnsutils
@@ -44,12 +43,12 @@ read mysql
 if [ "$mysql" = "Y" ]; then
   echo "PostgreSQL will be optimized..."
   apt-get install pgtune
-  sudo pgtune -i /etc/postgresql/9.1/main/postgresql.conf -o /etc/postgresql/9.1/main/postgresql.conf.tuned
-  sudo mv /etc/postgresql/9.1/main/postgresql.conf  /etc/postgresql/9.1/main/postgresql.conf.old
-  sudo mv /etc/postgresql/9.1/main/postgresql.conf.tuned  /etc/postgresql/9.1/main/postgresql.conf
+  sudo pgtune -i /etc/postgresql/9.4/main/postgresql.conf -o /etc/postgresql/9.4/main/postgresql.conf.tuned
+  sudo mv /etc/postgresql/9.4/main/postgresql.conf  /etc/postgresql/9.4/main/postgresql.conf.old
+  sudo mv /etc/postgresql/9.4/main/postgresql.conf.tuned  /etc/postgresql/9.4/main/postgresql.conf
   sudo /etc/init.d/postgresql stop
   sudo /etc/init.d/postgresql start
-  sudo cat /etc/postgresql/9.1/main/postgresql.conf
+  sudo cat /etc/postgresql/9.4/main/postgresql.conf
 else
   echo "PostgreSQL is not optimized!"
 fi
